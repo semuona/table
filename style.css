@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgba(243, 210, 240, 0.377);
+}
+header {
+   width: 450px;
+   height: 100px;
+    border-bottom:5px solid indigo;
+    color: indigo;
+    padding: 25px 0;
+    margin-left: 191.5px;
+    font-size: 2rem;
+    position: relative;
+    z-index: 10;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+table {
+    position: relative;
+    z-index: 1;
+  margin-top: -4px;
+  width: 80%;
+  height: 600px;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  border-collapse:collapse;
+}
+th {border-bottom: 2px solid rgba(128, 128, 128, 0.493);
+  font-size: 2rem;
+  color: grey;
+}
+td {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.493);
+   font-size: 2rem;
+  text-align: center;
+
+}
+tr:hover td {
+    background-color: white;
+    border-top: grey;
+    border-bottom: grey;
+    border-left: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+tr {
+   
+}
+}
+td * {display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+td img {
+  width: 4rem;
+}
+.avatar {
+  width: 5rem;
+  border: 2px solid rgb(184, 177, 177);
+  border-radius: 50%;
+  padding: 2px;
+}
+.plus {
+    width: 2rem;
+       
+}
+.face {
+    width: 1.5rem;
+    margin-right: 5px;
+}
+.extra-menu div{
+    font-size: 1.4rem;
+    width: 102px;
+    height: 80px ;
+    padding: 15px 20px;
+    margin: 3px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start
+    }
+
+    .extra-menu {
+        position: absolute;
+        top:5;
+        right: -10;
+        display: none;
+    }
